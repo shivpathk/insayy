@@ -51,15 +51,15 @@ export function Navbar() {
         {/* Mobile menu */}
         {isOpen && (
           <div className="md:hidden bg-background">
-            <div className="pt-3 pb-1 space-y-1">
+            <div className="w-[80%] pt-3 space-y-1 pl-5 pb-2">
               <MobileNavLink href="#pricing">Pricing</MobileNavLink>
               <MobileNavLink href="#products">Products</MobileNavLink>
               <MobileNavLink href="#about">About</MobileNavLink>
               <MobileNavLink href="#features">Features</MobileNavLink>
               <MobileNavLink href="#contacts">Contacts</MobileNavLink>
             </div>
-            <div className="pt-4 pb-3 border-t border-gray-200">
-              <button className="w-full bg-white text-primary px-4 py-2 rounded-full text-sm font-medium">
+            <div className="pt-4 pl-8 pb-3 border-t border-gray-200">
+              <button className="w-[80%] bg-white text-primary px-4 py-2 rounded-full text-md font-medium hover:bg-gray-200">
                 Sign up →
               </button>
             </div>
@@ -85,7 +85,7 @@ function MobileNavLink({ href, children }: { href: string; children: React.React
   return (
     <Link
       href={href}
-      className="block px-3 py-2 text-base font-medium text-text-secondary hover:text-text-primary hover:bg-gray-50 rounded-md"
+      className="block px-10 py-2 text-base font-medium text-text-secondary hover:text-text-primary hover:bg-gray-50 rounded-[2rem]"
     >
       {children}
     </Link>
