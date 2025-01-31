@@ -37,7 +37,7 @@ export function Hero() {
             <div className="grid grid-cols-2 gap-6">
               <div className="space-y-3">
                 <div className="bg-white p-4 rounded-xl shadow-sm">
-                  <h3 className="font-semibold text-text-primary">Ann Gray</h3>
+                  <h3 className="font-semibold text-text-primary">Anny Gray</h3>
                   <p className="text-sm text-text-secondary">UX/UI Developer</p>
                 </div>
                 <Image
